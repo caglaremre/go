@@ -1,0 +1,3 @@
+- every go file **must have** ==package== declaration.
+- every go program **must have** a function name ==main==.
+- 
