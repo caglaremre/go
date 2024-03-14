@@ -1,0 +1,6 @@
+ - use ==var== to define a variable.
+ - write a type **after** the variable name to define variable type. exp: `var example string`
+ - use ==:\=== assign return of a function to a variable. exp: `example := doSomething()`
+ - you can have a not used variable in package but not in the functions.
+ - you can return more than one variable.
+ - 
