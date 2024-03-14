@@ -1,0 +1,1 @@
+- we can create a ==type== for use it with variables. exp: `type User struct {}`
