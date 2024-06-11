@@ -3,4 +3,4 @@
  - use ==:\=== assign return of a function to a variable. exp: `example := doSomething()`
  - you can have a not used variable in package but not in the functions.
  - you can return more than one variable.
- - 
+ - use pointers to associate funcs to structs `func (m *myStruct) doSomething() string {}`

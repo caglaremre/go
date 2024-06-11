@@ -1,0 +1,3 @@
+- create map with `make` syntax. `exp: myMap := make(map[string]string)`
+- map is ==NOT== sorted even if you sort them.
+- slices can be sorted
