@@ -1,0 +1,3 @@
+- use  `` `json:"first_name"` `` after a variable in type to tell its to this for JSON
+- ==Unmarshall== used to parse JSON to an struct
+- ==Marshall=== used to create JSON from an struct
