@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bookings/pkg/config"
-	"bookings/pkg/handlers"
-	"bookings/pkg/render"
+	"bookings/internal/config"
+	"bookings/internal/handlers"
+	"bookings/internal/render"
 	"fmt"
 	"log"
 	"net/http"
@@ -37,7 +37,7 @@ func main() {
 	}
 
 	app.TemplateCache = tc
-	app.UseCache = true
+	app.UseCache = false
 
 	repo := handlers.NewRepo(&app)
 	handlers.NewHandlers(repo)
